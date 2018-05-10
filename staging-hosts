@@ -1,0 +1,6 @@
+[app-server]
+35.177.100.24 ansible_ssh_user=centos ansible_ssh_private_key_file=~/.ssh/Jon.pem
+
+[app-server:vars]
+node_env=stage
+hide_webserver=true
